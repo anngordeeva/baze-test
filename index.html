@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEZE-test</title>
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <div id="container" class="container">
+      <section class="init flex">
+        <div id="institution" class="institution wrapper">
+          <h2 id="institution-title" class="title">Организация</h2>
+          <div id="institution-wrapper-center" class="wrapper-center">
+            <p class="descr">Название организации, логотип и описание</p>
+            <button id="institution-btn" class="btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                <path
+                  d="M13.5 7H9.5V3C9.5 2.73478 9.39464 2.48043 9.20711 2.29289C9.01957 2.10536 8.76522 2 8.5 2C8.23478 2 7.98043 2.10536 7.79289 2.29289C7.60536 2.48043 7.5 2.73478 7.5 3V7H3.5C3.23478 7 2.98043 7.10536 2.79289 7.29289C2.60536 7.48043 2.5 7.73478 2.5 8C2.5 8.26522 2.60536 8.51957 2.79289 8.70711C2.98043 8.89464 3.23478 9 3.5 9H7.5V13C7.5 13.2652 7.60536 13.5196 7.79289 13.7071C7.98043 13.8946 8.23478 14 8.5 14C8.76522 14 9.01957 13.8946 9.20711 13.7071C9.39464 13.5196 9.5 13.2652 9.5 13V9H13.5C13.7652 9 14.0196 8.89464 14.2071 8.70711C14.3946 8.51957 14.5 8.26522 14.5 8C14.5 7.73478 14.3946 7.48043 14.2071 7.29289C14.0196 7.10536 13.7652 7 13.5 7Z"
+                  fill="#045CC4" />
+              </svg>
+              Добавить</button>
+          </div>
+        </div>
+        <div id="housing" class="housing wrapper">
+          <h2 id="housing-title" class="title">Корпусы</h2>
+          <div id="housing-wrapper-center" class="wrapper-center">
+            <p class="descr">Корпусы показываются в отделе бронирования и в модуле на сайте.
+              Для работы отеля нужен по меньшей мере один корпус.</p>
+            <button id="housing-btn" class="btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                <path
+                  d="M13.5 7H9.5V3C9.5 2.73478 9.39464 2.48043 9.20711 2.29289C9.01957 2.10536 8.76522 2 8.5 2C8.23478 2 7.98043 2.10536 7.79289 2.29289C7.60536 2.48043 7.5 2.73478 7.5 3V7H3.5C3.23478 7 2.98043 7.10536 2.79289 7.29289C2.60536 7.48043 2.5 7.73478 2.5 8C2.5 8.26522 2.60536 8.51957 2.79289 8.70711C2.98043 8.89464 3.23478 9 3.5 9H7.5V13C7.5 13.2652 7.60536 13.5196 7.79289 13.7071C7.98043 13.8946 8.23478 14 8.5 14C8.76522 14 9.01957 13.8946 9.20711 13.7071C9.39464 13.5196 9.5 13.2652 9.5 13V9H13.5C13.7652 9 14.0196 8.89464 14.2071 8.70711C14.3946 8.51957 14.5 8.26522 14.5 8C14.5 7.73478 14.3946 7.48043 14.2071 7.29289C14.0196 7.10536 13.7652 7 13.5 7Z"
+                  fill="#045CC4" />
+              </svg>
+              Добавить корпусы
+            </button>
+          </div>
+        </div>
+        <div id="address-container" class="address wrapper">
+          <h2 id="address-title" class="title">Фактический адрес</h2>
+          <div id="address-wrapper-center" class="wrapper-center">
+            <button id="address-btn" class="btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                <path
+                  d="M13.5 7H9.5V3C9.5 2.73478 9.39464 2.48043 9.20711 2.29289C9.01957 2.10536 8.76522 2 8.5 2C8.23478 2 7.98043 2.10536 7.79289 2.29289C7.60536 2.48043 7.5 2.73478 7.5 3V7H3.5C3.23478 7 2.98043 7.10536 2.79289 7.29289C2.60536 7.48043 2.5 7.73478 2.5 8C2.5 8.26522 2.60536 8.51957 2.79289 8.70711C2.98043 8.89464 3.23478 9 3.5 9H7.5V13C7.5 13.2652 7.60536 13.5196 7.79289 13.7071C7.98043 13.8946 8.23478 14 8.5 14C8.76522 14 9.01957 13.8946 9.20711 13.7071C9.39464 13.5196 9.5 13.2652 9.5 13V9H13.5C13.7652 9 14.0196 8.89464 14.2071 8.70711C14.3946 8.51957 14.5 8.26522 14.5 8C14.5 7.73478 14.3946 7.48043 14.2071 7.29289C14.0196 7.10536 13.7652 7 13.5 7Z"
+                  fill="#045CC4" />
+              </svg>
+              Добавить
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="institutionModal" class="modal__wrapper hidden">
+        <div class="institution__modal modal">
+          <div class="wrapper">
+            <div class="modal__header flex">
+              <h2 id="form-title" class="title">Организация</h2>
+              <button id="btn-close" class="modal__btn-close btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.0463 2.33521C12.4932 1.88826 13.2179 1.88826 13.6648 2.33521C14.1117 2.78215 14.1117 3.50678 13.6648 3.95372L9.61851 8L13.6648 12.0463C14.1117 12.4932 14.1117 13.2179 13.6648 13.6648C13.2179 14.1117 12.4932 14.1117 12.0463 13.6648L8 9.61851L3.95372 13.6648C3.50678 14.1117 2.78215 14.1117 2.33521 13.6648C1.88826 13.2179 1.88826 12.4932 2.33521 12.0463L6.38149 8L2.33521 3.95372C1.88826 3.50678 1.88826 2.78215 2.33521 2.33521C2.78215 1.88826 3.50678 1.88826 3.95372 2.33521L8 6.38149L12.0463 2.33521Z"
+                    fill="#353535" />
+                </svg>
+                Отменить</button>
+            </div>
+            <form id="institution" class="form flex">
+              <label class="form__label"> <h3 class="form__title"><span class="form__title form__title-required">*</span>Тип</h3>
+                <select id="select" name="type" class="form__choice js-choice">
+                  <option value=""> Санаторий "Огонёк"</option>
+                  <option value="Гостиница">Гостиница</option>
+                  <option value="Бизнес-отель">Бизнес-отель</option>
+                  <option value="Хостел">Хостел</option>
+                  <option value="Апартаменты">Апартаменты</option>
+                  <option value="Кемпинг">Кемпинг</option>
+                  <option value="Глэмпинг">Глэмпинг</option>
+                  <option value="7">Label</option>
+                  <option value="8">Label</option>
+                  <option value="9">Label</option>
+                  <option value="10">Label</option>
+                  <option value="11">Label</option>
+                  <option value="12">Label</option>
+                </select>
+              </label>
+              <label class="form__label"> <h3 class="form__title"><span class="form__title form__title-required">*</span>Название организации</h3>
+                <input id="name" class="form__label-input" type="text" name="name" placeholder='Санаторий "Огонёк"'>
+              </label>
+              <label class="form__label"><h3 class="form__title">Описание</h3> 
+                <textarea id="description" class="form__input-description" type="text" name="description" placeholder='Санаторий "Огонёк"'></textarea>
+                <span class="form__label-descr">Описание в модуле на сайте не показывается</span>
+              </label>
+              <label for="images" class="form__label drop-container"> <h3 class="form__title"><span class="form__title form__title-required">*</span>Логотип</h3> 
+                <div id="dropcontainer" class="form__label-img-container flex">
+                  <div id="textContent" class="form__label-img-text flex">
+                    <h4 class="form__label-img-title">Загрузите изображение или перетащите файл сюда</h4>
+                    <p class="form__label-img-descr">Максимальный размер изображения 10 Мб. Допустимые форматы: .jpeg .png .webp .svg</p>
+                    <span class="form__label-img-btn flex"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                      <path d="M13.5 7H9.5V3C9.5 2.73478 9.39464 2.48043 9.20711 2.29289C9.01957 2.10536 8.76522 2 8.5 2C8.23478 2 7.98043 2.10536 7.79289 2.29289C7.60536 2.48043 7.5 2.73478 7.5 3V7H3.5C3.23478 7 2.98043 7.10536 2.79289 7.29289C2.60536 7.48043 2.5 7.73478 2.5 8C2.5 8.26522 2.60536 8.51957 2.79289 8.70711C2.98043 8.89464 3.23478 9 3.5 9H7.5V13C7.5 13.2652 7.60536 13.5196 7.79289 13.7071C7.98043 13.8946 8.23478 14 8.5 14C8.76522 14 9.01957 13.8946 9.20711 13.7071C9.39464 13.5196 9.5 13.2652 9.5 13V9H13.5C13.7652 9 14.0196 8.89464 14.2071 8.70711C14.3946 8.51957 14.5 8.26522 14.5 8C14.5 7.73478 14.3946 7.48043 14.2071 7.29289C14.0196 7.10536 13.7652 7 13.5 7Z" fill="#045CC4"/>
+                    </svg>
+                    Загрузить</span>  
+                    <input class="form__label-img" type="file" name="logo" id="images" accept="image/*" title=" " onchange="previewFile()"></div>
+                  <img src="#" height="100%" alt="" />
+                </div>
+              </label>
+              <button id="btn-save" class="modal__btn-save btn">Сохранить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="housingModal" class="modal__wrapper hidden">
+        <div class="housing__modal modal">
+          <div class="wrapper">
+            <div class="modal__header flex">
+              <h2 id="form-title" class="title">Корпусы</h2>
+              <button id="btn-close-housing" class="modal__btn-close btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.0463 2.33521C12.4932 1.88826 13.2179 1.88826 13.6648 2.33521C14.1117 2.78215 14.1117 3.50678 13.6648 3.95372L9.61851 8L13.6648 12.0463C14.1117 12.4932 14.1117 13.2179 13.6648 13.6648C13.2179 14.1117 12.4932 14.1117 12.0463 13.6648L8 9.61851L3.95372 13.6648C3.50678 14.1117 2.78215 14.1117 2.33521 13.6648C1.88826 13.2179 1.88826 12.4932 2.33521 12.0463L6.38149 8L2.33521 3.95372C1.88826 3.50678 1.88826 2.78215 2.33521 2.33521C2.78215 1.88826 3.50678 1.88826 3.95372 2.33521L8 6.38149L12.0463 2.33521Z"
+                    fill="#353535" />
+                </svg>
+                Отменить</button>
+            </div>
+            <form id="housing-form" class="form" name="housing">
+              <ul id="housing-list" class="form__list flex">
+                <li id="housing-item" class="form__item housing-form">
+                    <h2 id="housing-title" class="housing-title">Корпус 1</h2>
+                    <label class="form__label form__label-address"> <h3 class="form__title"><span class="form__title form__title-required">*</span>Название</h3>
+                      <input id="name" class="form__label-input housing-input" type="text" name="title" placeholder='Огонёк'>
+                    </label>
+                    <div class="form__wrapper">
+                      <label class="form__label form__wrapper-label"><h3 class="form__title"><span class="form__title form__title-required">*</span>Количество этажей</h3> 
+                        <input id="floors" class="form__label-input housing-input" type="number" name="floors" placeholder='0'>
+                      </label>
+                      <label class="form__label form__wrapper-label"> <h3 class="form__title"><span class="form__title form__title-required">*</span>Количество номеров</h3>
+                        <input id="rooms" class="form__label-input housing-input" type="number" name="rooms" placeholder='0'>
+                      </label>
+                    </div>
+                </li>
+              </ul>
+            </form>
+          </form>
+            <button id="housing-btn-add" class="modal__btn-add btn" form="housing-form">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M11 5H7V1C7 0.734784 6.89464 0.48043 6.70711 0.292893C6.51957 0.105357 6.26522 0 6 0C5.73478 0 5.48043 0.105357 5.29289 0.292893C5.10536 0.48043 5 0.734784 5 1V5H1C0.734784 5 0.48043 5.10536 0.292893 5.29289C0.105357 5.48043 0 5.73478 0 6C0 6.26522 0.105357 6.51957 0.292893 6.70711C0.48043 6.89464 0.734784 7 1 7H5V11C5 11.2652 5.10536 11.5196 5.29289 11.7071C5.48043 11.8946 5.73478 12 6 12C6.26522 12 6.51957 11.8946 6.70711 11.7071C6.89464 11.5196 7 11.2652 7 11V7H11C11.2652 7 11.5196 6.89464 11.7071 6.70711C11.8946 6.51957 12 6.26522 12 6C12 5.73478 11.8946 5.48043 11.7071 5.29289C11.5196 5.10536 11.2652 5 11 5Z" fill="#045CC4"/>
+              </svg>
+              Добавить корпус</button>
+            <button id="housing-btn-save" class="modal__btn-save btn" form="housing-form" type="submit">Сохранить</button>
+          </div>
+        </div>
+      </section>
+      <section id="addressModal" class="modal__wrapper hidden">
+        <div class="housing__modal modal">
+          <div class="wrapper">
+            <div class="modal__header flex">
+              <h2 id="form-title" class="title">Фактический адрес</h2>
+              <button id="btn-close-address" class="modal__btn-close btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.0463 2.33521C12.4932 1.88826 13.2179 1.88826 13.6648 2.33521C14.1117 2.78215 14.1117 3.50678 13.6648 3.95372L9.61851 8L13.6648 12.0463C14.1117 12.4932 14.1117 13.2179 13.6648 13.6648C13.2179 14.1117 12.4932 14.1117 12.0463 13.6648L8 9.61851L3.95372 13.6648C3.50678 14.1117 2.78215 14.1117 2.33521 13.6648C1.88826 13.2179 1.88826 12.4932 2.33521 12.0463L6.38149 8L2.33521 3.95372C1.88826 3.50678 1.88826 2.78215 2.33521 2.33521C2.78215 1.88826 3.50678 1.88826 3.95372 2.33521L8 6.38149L12.0463 2.33521Z"
+                    fill="#353535" />
+                </svg>
+                Отменить</button>
+            </div>
+            <form id="address" class="form flex">
+              <div class="form__wrapper">
+                <label class="form__label form__wrapper-label"> <h3 class="form__title"><span class="form__title form__title-required">*</span>Регион</h3>
+                  <select id="select-address" name="region" class="form__choice address-js-choice">
+                    <option value=""> Пермский край</option>
+                    <option value="Рязанская область">Рязанская область</option>
+                    <option value="Смоленская область">Смоленская область</option>
+                    <option value="Тамбовская область">Тамбовская область</option>
+                    <option value="Московская область">Московская область</option>
+                    <option value="Курская область">Курская область</option>
+                    <option value="Владимирская область">Владимирская область</option>
+                    <option value="Республика Алтай">Республика Алтай</option>
+                    <option value="8">Label</option>
+                    <option value="9">Label</option>
+                    <option value="10">Label</option>
+                    <option value="11">Label</option>
+                    <option value="12">Label</option>
+                  </select>
+                </label>
+                <label class="form__label form__wrapper-label"> <h3 class="form__title">Район</h3>
+                  <input id="area" class="form__label-input" type="text" name="area" placeholder='Напишите район'>
+                </label>
+              </div>
+              <label class="form__label form__label-address"> <h3 class="form__title"><span class="form__title form__title-required">*</span>Адрес:</h3>
+                <input id="adds" class="form__label-input form__label-input-address" type="text" name="address" placeholder='Пермь, ул. Трубная, дом 12, корп. 1, стр. 1'>
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M6.66667 1.33331C5.83238 1.33376 5.00983 1.52992 4.26513 1.90604C3.52043 2.28215 2.87436 2.82773 2.37883 3.49892C1.88331 4.17011 1.55216 4.94818 1.41199 5.77061C1.27182 6.59304 1.32656 7.43689 1.57179 8.23432C1.81702 9.03175 2.2459 9.76053 2.82398 10.3621C3.40205 10.9636 4.11319 11.4212 4.90023 11.698C5.68728 11.9747 6.52827 12.063 7.35563 11.9557C8.18299 11.8483 8.97362 11.5484 9.664 11.08L12.96 14.3733C13.0515 14.4716 13.1619 14.5504 13.2846 14.605C13.4073 14.6597 13.5397 14.6891 13.674 14.6914C13.8082 14.6938 13.9416 14.6691 14.0661 14.6188C14.1906 14.5685 14.3038 14.4937 14.3987 14.3987C14.4937 14.3037 14.5685 14.1906 14.6188 14.0661C14.6691 13.9416 14.6938 13.8082 14.6915 13.674C14.6891 13.5397 14.6597 13.4073 14.605 13.2846C14.5504 13.1619 14.4716 13.0515 14.3733 12.96L11.08 9.66398C11.6248 8.86209 11.9408 7.92685 11.9939 6.95883C12.047 5.99081 11.8353 5.02661 11.3814 4.16993C10.9276 3.31324 10.2488 2.59646 9.4181 2.09667C8.58738 1.59687 7.63614 1.33296 6.66667 1.33331ZM3.33333 6.66665C3.33333 5.78259 3.68452 4.93475 4.30964 4.30962C4.93476 3.6845 5.78261 3.33331 6.66667 3.33331C7.55072 3.33331 8.39857 3.6845 9.02369 4.30962C9.64881 4.93475 10 5.78259 10 6.66665C10 7.5507 9.64881 8.39855 9.02369 9.02367C8.39857 9.64879 7.55072 9.99998 6.66667 9.99998C5.78261 9.99998 4.93476 9.64879 4.30964 9.02367C3.68452 8.39855 3.33333 7.5507 3.33333 6.66665Z" fill="#C8C8C8"/>
+                </svg>
+              </label>
+              <label class="form__label"><h3 class="form__title">Почтовый индекс</h3> 
+                <input id="index" class="form__label-input form__label-input-index" type="number" name="index" placeholder='123456'>
+              </label>
+              <button id="btn-save" class="modal__btn-save btn">Сохранить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="js/choices.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
